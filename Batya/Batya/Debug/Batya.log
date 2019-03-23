@@ -1,0 +1,4 @@
+﻿  main.cpp
+d:\spovm\batya\batya\main.cpp(115): warning C4018: <: несоответствие типов со знаком и без знака
+  Batya.vcxproj -> D:\SPOVM\Batya\Debug\Batya.exe
+  Batya.vcxproj -> D:\SPOVM\Batya\Debug\Batya.pdb (Full PDB)

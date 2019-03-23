@@ -1,0 +1,4 @@
+﻿  main.cpp
+d:\spovm\batya1\batya1\main.cpp(62): warning C4101: ch: неиспользованная локальная переменная
+  Batya1.vcxproj -> D:\SPOVM\Batya1\Debug\Batya1.exe
+  Batya1.vcxproj -> D:\SPOVM\Batya1\Debug\Batya1.pdb (Full PDB)
