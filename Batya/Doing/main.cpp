@@ -39,7 +39,7 @@ int main(int argc, char** argv)
 		while (output[i] != '\0')
 		{
 			cout << output[i];
-			Sleep(3);
+			Sleep(2);
 			i++;
 		}
 		cout << endl;
