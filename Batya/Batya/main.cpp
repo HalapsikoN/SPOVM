@@ -4,7 +4,7 @@
 #include <stdio.h>
 #include <vector>
 
-#define EVENT_NAME_SIZE 5;
+//#define EVENT_NAME_SIZE 5;
 
 void addProcess(std::vector<HANDLE> *eventVector, std::vector<PROCESS_INFORMATION> *processVector, int &processesNumber, LPCSTR childProcessName)
 {
