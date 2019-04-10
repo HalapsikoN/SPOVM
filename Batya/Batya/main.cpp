@@ -11,6 +11,7 @@ void addProcess(std::vector<HANDLE> *eventVector, std::vector<PROCESS_INFORMATIO
 	char childEventName[5];
 	_itoa_s(processesNumber, childEventName, 10);
 	HANDLE tempEvent = CreateEvent(NULL, TRUE, FALSE, childEventName);
+	
 	if (!tempEvent)
 	{
 		std::cout << "SHOCK!!! EVENT DID NOT CREATE" << GetLastError() << std::endl;
@@ -79,7 +80,7 @@ int main(int argc, char** argv)
 		if (_kbhit())
 		{
 			switch (_getch())
-			{
+			{ 
 			case'+':
 			{
 				addProcess(&eventVector, &processVector, processesNumber, (argc > 2) ? argv[1] : defaultChildProcessName);

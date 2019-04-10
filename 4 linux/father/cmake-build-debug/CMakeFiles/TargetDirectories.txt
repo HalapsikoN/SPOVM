@@ -1,0 +1,3 @@
+/home/halapsikon/CLionProjects/father/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/halapsikon/CLionProjects/father/cmake-build-debug/CMakeFiles/father.dir
+/home/halapsikon/CLionProjects/father/cmake-build-debug/CMakeFiles/edit_cache.dir

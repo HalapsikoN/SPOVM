@@ -52,6 +52,7 @@ int main(int argc, char* argv[])
 		}
 		else
 		{
+			TerminateProcess(processInfo.hProcess, 0);
 			cout << endl << "FAILED   " << GetLastError() << endl;
 		}
 	}

@@ -36,7 +36,7 @@ int main(int argc, char* argv[])
 	}
 	cout << endl;
 	file.close();
-	//Sleep(15000);
+	Sleep(15000);
 	cout << "======CHILD PROCESS END======" << endl;
 
 	return 0;

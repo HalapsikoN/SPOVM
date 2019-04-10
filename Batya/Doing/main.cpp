@@ -25,12 +25,10 @@ int main(int argc, char** argv)
 	//ResetEvent(eventDone);
 	
 	//WaitForSingleObject(eventDone, INFINITE);
-	SetEvent(eventDone);
-	ResetEvent(eventDone);
+
 	while (TRUE)
 	{
-		SetEvent(eventNow);
-		ResetEvent(eventNow);
+
 		//cout << "Done 1" << argv[0][i] << endl;
 		WaitForSingleObject(eventNow, INFINITE);
 		
@@ -39,10 +37,13 @@ int main(int argc, char** argv)
 		while (output[i] != '\0')
 		{
 			cout << output[i];
-			Sleep(2);
+			Sleep(1);
 			i++;
 		}
 		cout << endl;
+
+		SetEvent(eventNow);
+		ResetEvent(eventNow);
 		//SetEvent(eventDone);
 		//ResetEvent(eventDone);
 	}

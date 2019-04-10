@@ -1,4 +1,2 @@
-﻿  main.cpp
-d:\spovm\daughter\parent\main.cpp(25): warning C4101: a: неиспользованная локальная переменная
-  Parent.vcxproj -> D:\SPOVM\Daughter\Debug\Parent.exe
+﻿  Parent.vcxproj -> D:\SPOVM\Daughter\Debug\Parent.exe
   Parent.vcxproj -> D:\SPOVM\Daughter\Debug\Parent.pdb (Full PDB)
