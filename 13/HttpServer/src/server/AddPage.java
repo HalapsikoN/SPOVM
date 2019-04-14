@@ -1,6 +1,12 @@
 package server;
 
 import helpfulMethods.FileReadable;
+import inputExceptionsMongo.AlreadyHasHeaderException;
+import inputExceptionsMongo.NoHeaderEcxeption;
+import inputExceptionsMongo.NoInformationException;
+import inputExceptionsMongo.ParameterException;
+import mongo.MongoWork;
+
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -33,7 +39,10 @@ public class AddPage extends HttpServlet implements FileReadable {
 
         PrintWriter printWriter=resp.getWriter();
         printWriter.write(string);*/
-        printHTMLFile(resp, "D:\\SPOVM\\13\\HttpPages\\add.html");
+        //printHTMLFile(resp, "D:\\SPOVM\\13\\HttpPages\\add.html");
+        /*String message="sddsad";
+        req.setAttribute("mes", message);*/
+        req.getRequestDispatcher("/WEB-INF/add.jsp").forward(req,resp);
     }
 
     @Override
@@ -49,21 +58,14 @@ public class AddPage extends HttpServlet implements FileReadable {
             System.out.println(parameter+"="+req.getParameter(parameter));
         }
 
-
-        /*StringBuilder contentBuilder = new StringBuilder();
-        try {
-            BufferedReader in = new BufferedReader(new FileReader("D:\\SPOVM\\13\\HttpPages\\addDone.html"));
-            String str;
-            while ((str = in.readLine()) != null) {
-                contentBuilder.append(str);
-            }
-            in.close();
-        } catch (IOException e) {
-        }
-        String string = contentBuilder.toString();
-
-        PrintWriter printWriter=resp.getWriter();
-        printWriter.write(string);*/
+        MongoWork mongo=new MongoWork();
+        /*try {
+            mongo.add(listParametersName, parametersMap);
+            req.getRequestDispatcher("/WEB-INF/addDone.jsp").forward(req,resp);
+        }catch (ParameterException | NoHeaderEcxeption | NoInformationException | AlreadyHasHeaderException ex){
+            req.setAttribute("exception", ex.getMessage());
+            req.getRequestDispatcher("/WEB-INF/addException.jsp").forward(req,resp);
+        }*/
         printHTMLFile(resp, "D:\\SPOVM\\13\\HttpPages\\addDone.html");
     }
 }

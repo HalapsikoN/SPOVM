@@ -7,224 +7,71 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4776c93-f5b8-4e2a-b621-c6f91b73d6ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mongoWork/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mongoWork/src/main/java/mongo/MongoWork.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/server/AddPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/server/ChangePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/server/DeletePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/server/GetPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/server/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../testMongo2/src/main/java/MongoDb.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../testMongo2/untitled/src/hhh.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Zapiska.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../Zapiska.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../~$apiska.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../4 linux/father/.idea/father.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../4 linux/father/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../4 linux/father/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../4 linux/father/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../4 linux/father/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../4 linux/father/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../4 linux/father/cmake-build-debug/CMakeFiles/3.13.4/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../4 linux/father/cmake-build-debug/CMakeFiles/3.13.4/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../4 linux/father/cmake-build-debug/CMakeFiles/3.13.4/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../4 linux/father/cmake-build-debug/CMakeFiles/3.13.4/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../4 linux/father/cmake-build-debug/CMakeFiles/3.13.4/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../4 linux/father/cmake-build-debug/CMakeFiles/3.13.4/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../4 linux/father/cmake-build-debug/CMakeFiles/3.13.4/CompilerIdC/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../4 linux/father/cmake-build-debug/CMakeFiles/3.13.4/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../4 linux/father/cmake-build-debug/CMakeFiles/3.13.4/CompilerIdCXX/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../4 linux/father/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../4 linux/father/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../4 linux/father/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../4 linux/father/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../4 linux/father/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../4 linux/father/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../4 linux/father/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../4 linux/father/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../4 linux/father/cmake-build-debug/CMakeFiles/father.dir/CXX.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../4 linux/father/cmake-build-debug/CMakeFiles/father.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../4 linux/father/cmake-build-debug/CMakeFiles/father.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../4 linux/father/cmake-build-debug/CMakeFiles/father.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../4 linux/father/cmake-build-debug/CMakeFiles/father.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../4 linux/father/cmake-build-debug/CMakeFiles/father.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../4 linux/father/cmake-build-debug/CMakeFiles/father.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../4 linux/father/cmake-build-debug/CMakeFiles/father.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../4 linux/father/cmake-build-debug/CMakeFiles/father.dir/main.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../4 linux/father/cmake-build-debug/CMakeFiles/father.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../4 linux/father/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../4 linux/father/cmake-build-debug/CMakeFiles/feature_tests.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../4 linux/father/cmake-build-debug/CMakeFiles/feature_tests.cxx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../4 linux/father/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../4 linux/father/cmake-build-debug/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../4 linux/father/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../4 linux/father/cmake-build-debug/father" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../4 linux/father/cmake-build-debug/father.cbp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../4 linux/father/cmake-build-debug/my_sema" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../4 linux/father/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../4 linux/luk/.idea/luk.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../4 linux/luk/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../4 linux/luk/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../4 linux/luk/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../4 linux/luk/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../4 linux/luk/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../4 linux/luk/cmake-build-debug/CMakeFiles/3.13.4/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../4 linux/luk/cmake-build-debug/CMakeFiles/3.13.4/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../4 linux/luk/cmake-build-debug/CMakeFiles/3.13.4/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../4 linux/luk/cmake-build-debug/CMakeFiles/3.13.4/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../4 linux/luk/cmake-build-debug/CMakeFiles/3.13.4/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../4 linux/luk/cmake-build-debug/CMakeFiles/3.13.4/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../4 linux/luk/cmake-build-debug/CMakeFiles/3.13.4/CompilerIdC/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../4 linux/luk/cmake-build-debug/CMakeFiles/3.13.4/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../4 linux/luk/cmake-build-debug/CMakeFiles/3.13.4/CompilerIdCXX/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../4 linux/luk/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../4 linux/luk/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../4 linux/luk/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../4 linux/luk/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../4 linux/luk/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../4 linux/luk/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../4 linux/luk/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../4 linux/luk/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../4 linux/luk/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../4 linux/luk/cmake-build-debug/CMakeFiles/feature_tests.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../4 linux/luk/cmake-build-debug/CMakeFiles/feature_tests.cxx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../4 linux/luk/cmake-build-debug/CMakeFiles/luk.dir/CXX.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../4 linux/luk/cmake-build-debug/CMakeFiles/luk.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../4 linux/luk/cmake-build-debug/CMakeFiles/luk.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../4 linux/luk/cmake-build-debug/CMakeFiles/luk.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../4 linux/luk/cmake-build-debug/CMakeFiles/luk.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../4 linux/luk/cmake-build-debug/CMakeFiles/luk.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../4 linux/luk/cmake-build-debug/CMakeFiles/luk.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../4 linux/luk/cmake-build-debug/CMakeFiles/luk.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../4 linux/luk/cmake-build-debug/CMakeFiles/luk.dir/main.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../4 linux/luk/cmake-build-debug/CMakeFiles/luk.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../4 linux/luk/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../4 linux/luk/cmake-build-debug/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../4 linux/luk/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../4 linux/luk/cmake-build-debug/luk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../4 linux/luk/cmake-build-debug/luk.cbp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../4 linux/luk/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Batya/.vs/Batya/v14/.suo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Batya/Batya.VC.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Batya/Batya.sln" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Batya/Batya/Batya.vcxproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Batya/Batya/Batya.vcxproj.filters" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Batya/Batya/Debug/Batya.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Batya/Batya/Debug/Batya.tlog/Batya.lastbuildstate" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Batya/Batya/Debug/Batya.tlog/CL.command.1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Batya/Batya/Debug/Batya.tlog/CL.read.1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Batya/Batya/Debug/Batya.tlog/CL.write.1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Batya/Batya/Debug/Batya.tlog/link.command.1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Batya/Batya/Debug/Batya.tlog/link.read.1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Batya/Batya/Debug/Batya.tlog/link.write.1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Batya/Batya/Debug/main.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Batya/Batya/Debug/vc140.idb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Batya/Batya/Debug/vc140.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Batya/Batya/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Batya/Debug/Batya.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Batya/Debug/Batya.ilk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Batya/Debug/Batya.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Batya/Debug/Doing.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Batya/Debug/Doing.ilk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Batya/Debug/Doing.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Batya/Doing/Debug/Doing.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Batya/Doing/Debug/Doing.tlog/CL.command.1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Batya/Doing/Debug/Doing.tlog/CL.read.1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Batya/Doing/Debug/Doing.tlog/CL.write.1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Batya/Doing/Debug/Doing.tlog/Doing.lastbuildstate" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Batya/Doing/Debug/Doing.tlog/link.command.1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Batya/Doing/Debug/Doing.tlog/link.read.1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Batya/Doing/Debug/Doing.tlog/link.write.1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Batya/Doing/Debug/main.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Batya/Doing/Debug/vc140.idb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Batya/Doing/Debug/vc140.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Batya/Doing/Doing.vcxproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Batya/Doing/Doing.vcxproj.filters" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Batya/Doing/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Batya1/.vs/Batya1/v14/.suo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Batya1/Batya1.VC.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Batya1/Batya1.sln" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Batya1/Batya1/Batya1.vcxproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Batya1/Batya1/Batya1.vcxproj.filters" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Batya1/Batya1/Batya1.vcxproj.user" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Batya1/Batya1/Debug/Batya1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Batya1/Batya1/Debug/Batya1.tlog/Batya1.lastbuildstate" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Batya1/Batya1/Debug/Batya1.tlog/CL.command.1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Batya1/Batya1/Debug/Batya1.tlog/CL.read.1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Batya1/Batya1/Debug/Batya1.tlog/CL.write.1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Batya1/Batya1/Debug/Batya1.tlog/link.command.1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Batya1/Batya1/Debug/Batya1.tlog/link.read.1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Batya1/Batya1/Debug/Batya1.tlog/link.write.1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Batya1/Batya1/Debug/main.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Batya1/Batya1/Debug/vc140.idb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Batya1/Batya1/Debug/vc140.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Batya1/Batya1/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Batya1/Debug/Batya1.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Batya1/Debug/Batya1.ilk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Batya1/Debug/Batya1.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Batya1/Debug/Doing.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Batya1/Debug/Doing.ilk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Batya1/Debug/Doing.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Batya1/Doing/Debug/Doing.Build.CppClean.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Batya1/Doing/Debug/Doing.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Batya1/Doing/Debug/Doing.tlog/CL.command.1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Batya1/Doing/Debug/Doing.tlog/CL.read.1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Batya1/Doing/Debug/Doing.tlog/CL.write.1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Batya1/Doing/Debug/Doing.tlog/Doing.lastbuildstate" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Batya1/Doing/Debug/Doing.tlog/link.command.1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Batya1/Doing/Debug/Doing.tlog/link.read.1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Batya1/Doing/Debug/Doing.tlog/link.write.1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Batya1/Doing/Debug/main.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Batya1/Doing/Debug/vc140.idb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Batya1/Doing/Debug/vc140.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Batya1/Doing/Doing.vcxproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Batya1/Doing/Doing.vcxproj.filters" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Batya1/Doing/Doing.vcxproj.user" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Batya1/Doing/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Batya1/main (child).cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Batya1/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Daughter/.vs/Daughter/v14/.suo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Daughter/Daughter.VC.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Daughter/Daughter.sln" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Daughter/Daughter/Daughter.vcxproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Daughter/Daughter/Daughter.vcxproj.filters" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Daughter/Daughter/Daughter.vcxproj.user" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Daughter/Daughter/Debug/Daughter.Build.CppClean.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Daughter/Daughter/Debug/Daughter.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Daughter/Daughter/Debug/Daughter.tlog/CL.command.1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Daughter/Daughter/Debug/Daughter.tlog/CL.read.1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Daughter/Daughter/Debug/Daughter.tlog/CL.write.1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Daughter/Daughter/Debug/Daughter.tlog/Daughter.lastbuildstate" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Daughter/Daughter/Debug/Daughter.tlog/link.command.1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Daughter/Daughter/Debug/Daughter.tlog/link.read.1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Daughter/Daughter/Debug/Daughter.tlog/link.write.1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Daughter/Daughter/Debug/main.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Daughter/Daughter/Debug/vc140.idb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Daughter/Daughter/Debug/vc140.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Daughter/Daughter/data.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Daughter/Daughter/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Daughter/Debug/Daughter.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Daughter/Debug/Daughter.ilk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Daughter/Debug/Daughter.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Daughter/Debug/Parent.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Daughter/Debug/Parent.ilk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Daughter/Debug/Parent.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Daughter/Debug/data.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Daughter/Parent/Debug/Parent.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Daughter/Parent/Debug/Parent.tlog/CL.command.1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Daughter/Parent/Debug/Parent.tlog/CL.read.1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Daughter/Parent/Debug/Parent.tlog/CL.write.1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Daughter/Parent/Debug/Parent.tlog/Parent.lastbuildstate" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Daughter/Parent/Debug/Parent.tlog/link.command.1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Daughter/Parent/Debug/Parent.tlog/link.read.1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Daughter/Parent/Debug/Parent.tlog/link.write.1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Daughter/Parent/Debug/main.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Daughter/Parent/Debug/vc140.idb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Daughter/Parent/Debug/vc140.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Daughter/Parent/Parent.vcxproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Daughter/Parent/Parent.vcxproj.filters" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Daughter/Parent/Parent.vcxproj.user" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Daughter/Parent/data.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Daughter/Parent/main.cpp" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongoWork/src/main/java/inputExceptionsMongo/AlreadyHasHeaderException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongoWork/src/main/java/inputExceptionsMongo/NoHeaderEcxeption.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongoWork/src/main/java/inputExceptionsMongo/NoInformationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongoWork/src/main/java/inputExceptionsMongo/NoSuchElementInDBException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongoWork/src/main/java/inputExceptionsMongo/ParameterException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ght/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ght/.idea/libraries/servlet_api.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ght/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ght/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ght/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ght/ght.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ght/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ght/src/main/java/helpfulMethods/FileReadable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ght/src/main/java/server/AddPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ght/src/main/java/server/ChangePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ght/src/main/java/server/DeletePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ght/src/main/java/server/GetPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ght/src/main/java/server/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../serverTry2/.idea/artifacts/serverTry2_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../serverTry2/.idea/libraries/bson_3_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../serverTry2/.idea/libraries/servlet_api.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../serverTry2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../serverTry2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../serverTry2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../serverTry2/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../serverTry2/serverTry2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../serverTry2/src/helpfulMethods/FileReadable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../serverTry2/src/inputExceptionsMongo/AlreadyHasHeaderException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../serverTry2/src/inputExceptionsMongo/NoHeaderEcxeption.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../serverTry2/src/inputExceptionsMongo/NoInformationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../serverTry2/src/inputExceptionsMongo/NoSuchElementInDBException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../serverTry2/src/inputExceptionsMongo/ParameterException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../serverTry2/src/mongo/MongoWork.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../serverTry2/src/server/AddPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../serverTry2/src/server/ChangePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../serverTry2/src/server/DeletePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../serverTry2/src/server/GetPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../serverTry2/src/server/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../serverTry2/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testMongo2/src/main/java/mongo/MongoWork.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/.idea/artifacts/untitled_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/.idea/libraries/bson_3_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/untitled.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongo_java_driver_2_11_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongo_java_driver_2_10_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HttpServer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HttpServer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongoWork/mongoWork.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mongoWork/mongoWork.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongoWork/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mongoWork/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongoWork/src/main/java/mongo/MongoWork.java" beforeDir="false" afterPath="$PROJECT_DIR$/mongoWork/src/main/java/mongo/MongoWork.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/HttpServer_war_exploded/WEB-INF/classes/server/AddPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/HttpServer_war_exploded/WEB-INF/classes/server/AddPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/HttpServer_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/HttpServer_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HttpServer/server/AddPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HttpServer/server/AddPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/AddPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/AddPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../httpPages/addDone.html" beforeDir="false" afterPath="$PROJECT_DIR$/../httpPages/addDone.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testMongo2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../testMongo2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testMongo2/src/main/java/MongoDb.java" beforeDir="false" afterPath="$PROJECT_DIR$/../testMongo2/src/main/java/MongoDb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testMongo2/target/classes/MongoDb.class" beforeDir="false" afterPath="$PROJECT_DIR$/../testMongo2/target/classes/MongoDb.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/mongoWork/target/" />
@@ -235,18 +82,18 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/server/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="6" column="38" lean-forward="true" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+            <state relative-caret-position="396">
+              <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
               <folding>
-                <element signature="e#452#1008#0" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#513#1069#0" />
               </folding>
             </state>
           </provider>
@@ -255,8 +102,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/helpfulMethods/FileReadable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+            <state relative-caret-position="220">
+              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -265,36 +112,15 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/index.jsp">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/server/AddPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="655">
-              <caret line="51" selection-start-line="51" selection-end-line="51" />
+            <state relative-caret-position="-614">
+              <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#697#1211#0" />
-                <element signature="e#1418#1426#0" expanded="true" />
-                <element signature="e#1687#1702#0" expanded="true" />
-                <element signature="e#2063#2581#0" />
+                <element signature="e#636#1150#0" />
+                <element signature="e#1865#1873#0" expanded="true" />
+                <element signature="e#2077#2092#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mongoWork/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -302,8 +128,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mongoWork/src/main/java/mongo/MongoWork.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="54" column="48" lean-forward="true" selection-start-line="54" selection-start-column="48" selection-end-line="54" selection-end-column="48" />
+            <state relative-caret-position="22">
+              <caret line="40" column="35" selection-start-line="40" selection-start-column="35" selection-end-line="40" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -312,10 +138,53 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/server/GetPage.java">
+        <entry file="file://$PROJECT_DIR$/mongoWork/src/main/java/inputExceptionsMongo/AlreadyHasHeaderException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="110">
+              <caret line="5" column="57" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
+              <folding>
+                <element signature="e#114#115#0" expanded="true" />
+                <element signature="e#137#138#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mongoWork/src/main/java/inputExceptionsMongo/NoSuchElementInDBException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="5" column="51" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
+              <folding>
+                <element signature="e#132#133#0" expanded="true" />
+                <element signature="e#155#156#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mongoWork/src/main/java/inputExceptionsMongo/ParameterException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+              <folding>
+                <element signature="e#119#120#0" expanded="true" />
+                <element signature="e#142#143#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mongoWork/src/main/java/inputExceptionsMongo/NoHeaderEcxeption.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+              <folding>
+                <element signature="e#99#100#0" expanded="true" />
+                <element signature="e#122#123#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -329,24 +198,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/server/DeletePage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <dirStrings>
+      <dir>D:\SPOVM\13\HttpServer\mongoWork</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -357,53 +222,40 @@
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/AddPage.java" />
         <option value="$PROJECT_DIR$/src/helpfulMethods/FileReadable.java" />
-        <option value="$PROJECT_DIR$/src/server/Main.java" />
-        <option value="$PROJECT_DIR$/mongoWork/pom.xml" />
         <option value="$PROJECT_DIR$/mongoWork/src/main/java/MongoWork.java" />
-        <option value="$PROJECT_DIR$/src/server/AddPage.java" />
+        <option value="$PROJECT_DIR$/src/server/Main.java" />
+        <option value="$PROJECT_DIR$/mongoWork/src/main/java/inputExceptionsMongo/NoInformationException.java" />
+        <option value="$PROJECT_DIR$/mongoWork/src/main/java/inputExceptionsMongo/NoHeaderEcxeption.java" />
+        <option value="$PROJECT_DIR$/mongoWork/src/main/java/inputExceptionsMongo/ParameterException.java" />
+        <option value="$PROJECT_DIR$/mongoWork/src/main/java/inputExceptionsMongo/NoSuchHeaderInDBException.java" />
+        <option value="$PROJECT_DIR$/mongoWork/src/main/java/inputExceptionsMongo/AlreadyHasHeader.java" />
         <option value="$PROJECT_DIR$/mongoWork/src/main/java/mongo/MongoWork.java" />
+        <option value="$PROJECT_DIR$/mongoWork/pom.xml" />
+        <option value="$PROJECT_DIR$/src/server/AddPage.java" />
       </list>
     </option>
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="mongoWork" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/servlet_api.xml" />
-        <option value="$PROJECT_DIR$/mongoWork/mongoWork.iml" />
-        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
-        <option value="$PROJECT_DIR$/../testMongo2/testMongo2.iml" />
-        <option value="$PROJECT_DIR$/../testMongo2/untitled/untitled.iml" />
-        <option value="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongo_java_driver_2_11_2.xml" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-228" />
     <option name="y" value="-16" />
     <option name="width" value="1936" />
     <option name="height" value="1017" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -444,6 +296,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="inputExceptionsMongo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HttpServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HttpServer" type="462c0819:PsiDirectoryNode" />
+              <item name="mongoWork" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="mongo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -455,23 +316,40 @@
               <item name="HttpServer" type="b2602c69:ProjectViewProjectNode" />
               <item name="HttpServer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="helpfulMethods" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HttpServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HttpServer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HttpServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HttpServer" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="C:/Program Files/Apache Software Foundation/Tomcat 7.0/lib/servlet-api.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../testMongo2" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
@@ -572,47 +450,49 @@
       <option name="presentableId" value="Default" />
       <updated>1555084368116</updated>
       <workItem from="1555084373277" duration="14656000" />
+      <workItem from="1555239738796" duration="14431000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14656000" />
+    <option name="totallyTimeSpent" value="29087000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Capture Tool" />
-      <window_info id="Web" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24427083" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Application Servers" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" sideWeight="0.5005208" side_tool="true" weight="0.32169312" />
-      <window_info anchor="bottom" id="Messages" />
-      <window_info anchor="bottom" id="Java Enterprise" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947917" weight="0.32169312" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49895832" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" weight="0.3296875" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="bottom" id="Application Servers" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50104165" side_tool="true" weight="0.32169312" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32910052" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32942432" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -622,13 +502,13 @@
     <entry file="file://$PROJECT_DIR$/HttpServer.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/ChangePage.java">
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/GetPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
@@ -642,17 +522,71 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/GetPage.java">
+    <entry file="file://$PROJECT_DIR$/mongoWork/src/main/java/inputExceptionsMongo/NoInformationException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="62" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="62" />
+          <folding>
+            <element signature="e#122#123#0" expanded="true" />
+            <element signature="e#190#191#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mongoWork/src/main/java/inputExceptionsMongo/NoHeaderEcxeption.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#99#100#0" expanded="true" />
+            <element signature="e#122#123#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/ChangePage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#513#1069#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mongoWork/src/main/java/inputExceptionsMongo/NoSuchElementInDBException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="51" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
+          <folding>
+            <element signature="e#132#133#0" expanded="true" />
+            <element signature="e#155#156#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mongoWork/src/main/java/mongo/MongoWork.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="40" column="35" selection-start-line="40" selection-start-column="35" selection-end-line="40" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/helpfulMethods/FileReadable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+        <state relative-caret-position="220">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -661,41 +595,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mongoWork/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+        <state relative-caret-position="139">
+          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mongoWork/src/main/java/mongo/MongoWork.java">
+    <entry file="file://$PROJECT_DIR$/mongoWork/src/main/java/inputExceptionsMongo/AlreadyHasHeaderException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="54" column="48" lean-forward="true" selection-start-line="54" selection-start-column="48" selection-end-line="54" selection-end-column="48" />
+        <state relative-caret-position="110">
+          <caret line="5" column="57" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
           <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="6" column="38" lean-forward="true" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
-          <folding>
-            <element signature="e#452#1008#0" />
+            <element signature="e#114#115#0" expanded="true" />
+            <element signature="e#137#138#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/server/AddPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="655">
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        <state relative-caret-position="-614">
+          <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#697#1211#0" />
-            <element signature="e#1418#1426#0" expanded="true" />
-            <element signature="e#1687#1702#0" expanded="true" />
-            <element signature="e#2063#2581#0" />
+            <element signature="e#636#1150#0" />
+            <element signature="e#1865#1873#0" expanded="true" />
+            <element signature="e#2077#2092#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mongoWork/src/main/java/inputExceptionsMongo/ParameterException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+          <folding>
+            <element signature="e#119#120#0" expanded="true" />
+            <element signature="e#142#143#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -706,10 +640,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>HttpServer:war exploded</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -750,6 +686,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
+          <last-edited>HttpServer</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

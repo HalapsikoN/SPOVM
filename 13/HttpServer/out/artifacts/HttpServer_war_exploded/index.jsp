@@ -10,6 +10,7 @@
   <head>
     <title>localhost</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="shortcut icon" href="https://memepedia.ru/wp-content/uploads/2019/04/124210-full.png">
   </head>
   <body>
 	<div style="text-align:center">

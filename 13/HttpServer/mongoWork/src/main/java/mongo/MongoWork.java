@@ -1,6 +1,7 @@
 package mongo;
 
 import com.mongodb.*;
+import inputExceptionsMongo.*;
 
 import java.net.UnknownHostException;
 import java.util.List;
@@ -21,8 +22,27 @@ public class MongoWork {
         collection=db.getCollection("articles");
     }
 
-    public void add(List<String> parametersList, Map<String,String> parametersMap){
+    public void add(List<String> parametersList, Map<String,String> parametersMap) throws ParameterException, NoHeaderEcxeption, NoInformationException, AlreadyHasHeaderException {
 
+        if(parametersList==null || parametersMap==null || parametersList.isEmpty() || parametersMap.isEmpty()){
+            throw new ParameterException();
+        }
+        for(String parameter:parametersList){
+            if (parameter==null || parameter.isEmpty()){
+                throw new NoHeaderEcxeption();
+            }
+            String value=parametersMap.get(parameter);
+            if(value==null || value.isEmpty()){
+                throw new NoInformationException();
+            }
+            try{
+                String string=getByHeader(parameter);
+                if(!(string.isEmpty())) {
+                    throw new AlreadyHasHeaderException();
+                }
+            }catch (NoSuchElementInDBException e) {
+            }
+        }
         BasicDBObject dbObject=new BasicDBObject();
         for(String parameter:parametersList){
             String key=parameter;
@@ -32,28 +52,43 @@ public class MongoWork {
         collection.insert(dbObject);
     }
 
-    public String getByHeader(String searchHeader){
+    public String getByHeader(String searchHeader) throws NoHeaderEcxeption, NoSuchElementInDBException {
+        if (searchHeader == null || searchHeader.isEmpty()) {
+            throw new NoHeaderEcxeption();
+        }
+        String result = null;
+        BasicDBObject query = new BasicDBObject();
 
-        String result=null;
-        BasicDBObject query=new BasicDBObject();
         query.put(HEADER, searchHeader);
-        DBObject findElement= (DBObject) collection.find(query);
-        result= String.valueOf(findElement.get(HEADER));
+        DBObject findElement = collection.findOne(query);
+        if (findElement == null) {
+            throw new NoSuchElementInDBException();
+        }
+        result = String.valueOf(findElement.get(HEADER));
+
         return result;
     }
 
-    public void updateByHeader(String searchHeader, String newInf){
-
+    public void updateByHeader(String searchHeader, String newInf) throws NoHeaderEcxeption, NoSuchElementInDBException, NoInformationException {
+        if(searchHeader==null || searchHeader.isEmpty()){
+            throw new NoHeaderEcxeption();
+        }
+        if(newInf==null || newInf.isEmpty()){
+            throw new NoInformationException();
+        }
         BasicDBObject newDBObject=new BasicDBObject();
-        newDBObject.put(searchHeader, newInf);
-        BasicDBObject oldDBObject=new BasicDBObject().append(searchHeader, getByHeader(searchHeader));
+        newDBObject.put(HEADER, searchHeader);
+        newDBObject.put(INF, newInf);
+        BasicDBObject oldDBObject=new BasicDBObject().append(INF, getByHeader(searchHeader));
         collection.update(oldDBObject, newDBObject);
     }
 
-    public void deleteByHeader(String searchHeader){
-
+    public void deleteByHeader(String searchHeader) throws NoHeaderEcxeption, NoSuchElementInDBException {
+        if(searchHeader==null || searchHeader.isEmpty()){
+            throw new NoHeaderEcxeption();
+        }
         BasicDBObject query=new BasicDBObject();
-        query.put(searchHeader, getByHeader(searchHeader));
+        query.put(INF, getByHeader(searchHeader));
         collection.remove(query);
     }
 }

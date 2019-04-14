@@ -1,5 +1,7 @@
 import com.mongodb.*;
+import mongo.MongoWork;
 
+import java.io.IOException;
 import java.net.UnknownHostException;
 import java.util.Set;
 
@@ -11,10 +13,10 @@ public class MongoDb{
         System.out.println("Start");
 
         try {
-            Mongo m = new Mongo("localhost", 27017);
+            /*Mongo m = new Mongo("localhost", 27017);
             DB db = m.getDB("test");
 
-            DBCollection coll = db.getCollection("some");
+            DBCollection coll = db.getCollection("some");*/
 
             //добавление
             //coll.insert(makeDocument(10, "James", "male"));
@@ -22,10 +24,10 @@ public class MongoDb{
             //System.out.println(coll.getCount());
 
             //вывод всего
-            DBCursor cur=coll.find();
+            /*DBCursor cur=coll.find();
             while(cur.hasNext()){
                 System.out.println(cur.next());
-            }
+            }*/
 
             //поиск по параметру
            /* BasicDBObject query=new BasicDBObject();
@@ -44,30 +46,37 @@ public class MongoDb{
             BasicDBObject searchQuery=new BasicDBObject().append("name","James");
             coll.update(searchQuery, newData);*/
 
-            String result="bo";
+            /*String result="bo";
             BasicDBObject query=new BasicDBObject();
             query.put("name", "Tom");
             try {
-                DBObject findElement = (DBObject) coll.find(query);
-                result= String.valueOf(findElement.get("name"));
-            }catch (ClassCastException e)
+                DBObject findElement = coll.findOne(query);
+                if(findElement==null)
+                {
+                    throw new IOException();
+                }
+                result= String.valueOf(findElement.get("gender"));
+            }catch (IOException e)
             {
                 System.out.println("yes");
-            }
+            }*/
 
-            System.out.println(result);
+            //System.out.println(result);
             //удаление
             /*BasicDBObject query=new BasicDBObject();
             query.put("name", "Tom");
             coll.remove(query);*/
 
 
+            MongoWork mongo=new MongoWork();
+            mongo.add();
 
-            System.out.println();
+
+            /*System.out.println();
             cur=coll.find();
             while(cur.hasNext()){
                 System.out.println(cur.next());
-            }
+            }*/
             System.out.println("Finish");
         }
         catch (UnknownHostException ex) {

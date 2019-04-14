@@ -21,5 +21,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" scope="PROVIDED" name="Tomcat 7.0.93" level="application_server_libraries" />
     <orderEntry type="library" name="servlet-api" level="project" />
+    <orderEntry type="module" module-name="mongoWork" />
   </component>
 </module>
