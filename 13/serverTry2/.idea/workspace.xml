@@ -7,72 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="27a3a56e-6791-4ec4-8408-6d1904afca0d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../HttpServer/mongoWork/src/main/java/inputExceptionsMongo/AlreadyHasHeaderException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HttpServer/mongoWork/src/main/java/inputExceptionsMongo/NoHeaderEcxeption.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HttpServer/mongoWork/src/main/java/inputExceptionsMongo/NoInformationException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HttpServer/mongoWork/src/main/java/inputExceptionsMongo/NoSuchElementInDBException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HttpServer/mongoWork/src/main/java/inputExceptionsMongo/ParameterException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ght/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ght/.idea/libraries/servlet_api.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ght/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ght/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ght/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ght/ght.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ght/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ght/src/main/java/helpfulMethods/FileReadable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ght/src/main/java/server/AddPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ght/src/main/java/server/ChangePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ght/src/main/java/server/DeletePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ght/src/main/java/server/GetPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ght/src/main/java/server/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/serverTry2_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/bson_3_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/servlet_api.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/serverTry2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/inputExceptionsMongo/AlreadyHasHeaderException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/inputExceptionsMongo/NoHeaderEcxeption.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/inputExceptionsMongo/NoInformationException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/inputExceptionsMongo/NoSuchElementInDBException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/inputExceptionsMongo/ParameterException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mongo/MongoWork.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/server/AddPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/server/ChangePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/server/DeletePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/server/GetPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/server/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../testMongo2/src/main/java/mongo/MongoWork.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled/.idea/artifacts/untitled_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled/.idea/libraries/bson_3_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled/untitled.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HttpServer/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HttpServer/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HttpServer/.idea/libraries/Maven__org_mongodb_mongo_java_driver_2_11_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HttpServer/.idea/libraries/Maven__org_mongodb_mongo_java_driver_2_10_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HttpServer/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HttpServer/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HttpServer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HttpServer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HttpServer/HttpServer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../HttpServer/HttpServer.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HttpServer/mongoWork/mongoWork.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../HttpServer/mongoWork/mongoWork.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HttpServer/mongoWork/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HttpServer/mongoWork/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HttpServer/mongoWork/src/main/java/mongo/MongoWork.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HttpServer/mongoWork/src/main/java/mongo/MongoWork.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HttpServer/out/artifacts/HttpServer_war_exploded/WEB-INF/classes/server/AddPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HttpServer/out/artifacts/HttpServer_war_exploded/WEB-INF/classes/server/AddPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HttpServer/out/artifacts/HttpServer_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../HttpServer/out/artifacts/HttpServer_war_exploded/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HttpServer/out/production/HttpServer/server/AddPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HttpServer/out/production/HttpServer/server/AddPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HttpServer/src/server/AddPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HttpServer/src/server/AddPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HttpServer/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../HttpServer/web/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../httpPages/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/../httpPages/add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../httpPages/addDone.html" beforeDir="false" afterPath="$PROJECT_DIR$/../httpPages/addDone.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../httpPages/mainPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/../httpPages/mainPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../testMongo2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../testMongo2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../testMongo2/src/main/java/MongoDb.java" beforeDir="false" afterPath="$PROJECT_DIR$/../testMongo2/src/main/java/MongoDb.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../testMongo2/target/classes/MongoDb.class" beforeDir="false" afterPath="$PROJECT_DIR$/../testMongo2/target/classes/MongoDb.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/serverTry2_war_exploded/WEB-INF/classes/server/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/serverTry2_war_exploded/WEB-INF/classes/server/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/serverTry2/server/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/serverTry2/server/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -86,12 +24,12 @@
     <option name="delegatedBuild" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/server/AddPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
-              <caret line="53" column="67" selection-start-line="53" selection-start-column="67" selection-end-line="53" selection-end-column="67" />
+            <state relative-caret-position="220">
+              <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -102,7 +40,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/server/GetPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
+            <state relative-caret-position="506">
               <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="33" selection-end-column="84" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -114,8 +52,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/mongo/MongoWork.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="43" column="16" lean-forward="true" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
+            <state relative-caret-position="550">
+              <caret line="35" column="54" lean-forward="true" selection-start-line="35" selection-start-column="54" selection-end-line="35" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -153,8 +91,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/server/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state relative-caret-position="154">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -163,9 +101,14 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/addAlreadyHasElement.jsp">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/server/DeletePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
+            <state relative-caret-position="572">
               <caret line="35" column="66" selection-start-line="35" selection-start-column="66" selection-end-line="35" selection-end-column="66" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -177,7 +120,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/server/ChangePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
+            <state relative-caret-position="418">
               <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -197,10 +140,10 @@
         <option value="$PROJECT_DIR$/src/server/inputExceptionsMongo/NoSuchElementInDBException.java" />
         <option value="$PROJECT_DIR$/src/server/GetPage.java" />
         <option value="$PROJECT_DIR$/src/server/ChangePage.java" />
-        <option value="$PROJECT_DIR$/src/server/Main.java" />
         <option value="$PROJECT_DIR$/src/server/DeletePage.java" />
         <option value="$PROJECT_DIR$/src/server/AddPage.java" />
         <option value="$PROJECT_DIR$/src/mongo/MongoWork.java" />
+        <option value="$PROJECT_DIR$/src/server/Main.java" />
       </list>
     </option>
   </component>
@@ -210,7 +153,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-228" />
     <option name="y" value="-16" />
     <option name="width" value="1936" />
@@ -222,6 +165,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -261,7 +205,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -384,38 +327,45 @@
       <option name="presentableId" value="Default" />
       <updated>1555253487420</updated>
       <workItem from="1555253502105" duration="18305000" />
+      <workItem from="1555317244960" duration="2554000" />
+      <workItem from="1555328801162" duration="851000" />
+      <workItem from="1555339882236" duration="378000" />
+      <workItem from="1555345149479" duration="173000" />
+      <workItem from="1555420855654" duration="173000" />
+      <workItem from="1555499071050" duration="2578000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18305000" />
+    <option name="totallyTimeSpent" value="25012000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Capture Tool" />
-      <window_info id="Web" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16471216" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17430703" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Application Servers" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" sideWeight="0.50053304" side_tool="true" weight="0.32936078" />
-      <window_info anchor="bottom" id="Messages" weight="0.32936078" />
-      <window_info anchor="bottom" id="Java Enterprise" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Application Servers" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32936078" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Database" order="2" />
@@ -431,74 +381,30 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/server/helpfulMethods/FileReadable.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/inputExceptionsMongo/NoHeaderEcxeption.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/inputExceptionsMongo/ParameterException.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/mongo/MongoWork.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/inputExceptionsMongo/NoInformationException.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/inputExceptionsMongo/AlreadyHasHeaderException.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/inputExceptionsMongo/NoSuchElementInDBException.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/helpfulMethods/FileReadable.java" />
+    <entry file="file://$PROJECT_DIR$/src/server/inputExceptionsMongo/NoHeaderEcxeption.java" />
+    <entry file="file://$PROJECT_DIR$/src/server/inputExceptionsMongo/ParameterException.java" />
+    <entry file="file://$PROJECT_DIR$/src/server/mongo/MongoWork.java" />
+    <entry file="file://$PROJECT_DIR$/src/server/inputExceptionsMongo/NoInformationException.java" />
+    <entry file="file://$PROJECT_DIR$/src/server/inputExceptionsMongo/AlreadyHasHeaderException.java" />
+    <entry file="file://$PROJECT_DIR$/src/server/inputExceptionsMongo/NoSuchElementInDBException.java" />
     <entry file="file://$PROJECT_DIR$/src/inputExceptionsMongo/ParameterException.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/inputExceptionsMongo/NoSuchElementInDBException.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/helpfulMethods/FileReadable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/helpfulMethods/FileReadable.java" />
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/add.jsp">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/inputExceptionsMongo/NoHeaderEcxeption.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/addDone.jsp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/inputExceptionsMongo/NoInformationException.java">
+    <entry file="file://$PROJECT_DIR$/src/server/AddPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/ChangePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="220">
+          <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -507,18 +413,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/server/GetPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
+        <state relative-caret-position="506">
           <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="33" selection-end-column="84" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/DeletePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="35" column="66" selection-start-line="35" selection-start-column="66" selection-end-line="35" selection-end-column="66" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -532,10 +428,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/AddPage.java">
+    <entry file="file://$PROJECT_DIR$/src/inputExceptionsMongo/NoHeaderEcxeption.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="53" column="67" selection-start-line="53" selection-start-column="67" selection-end-line="53" selection-end-column="67" />
+        <state relative-caret-position="44">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/inputExceptionsMongo/NoInformationException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/addAlreadyHasElement.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/DeletePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="35" column="66" selection-start-line="35" selection-start-column="66" selection-end-line="35" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/ChangePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -544,8 +477,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/mongo/MongoWork.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="43" column="16" lean-forward="true" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
+        <state relative-caret-position="550">
+          <caret line="35" column="54" lean-forward="true" selection-start-line="35" selection-start-column="54" selection-end-line="35" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
