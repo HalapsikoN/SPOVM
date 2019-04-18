@@ -3,7 +3,7 @@ package server;
 import inputExceptionsMongo.NoHeaderEcxeption;
 import inputExceptionsMongo.NoInformationException;
 import inputExceptionsMongo.NoSuchElementInDBException;
-import mongo.MongoWork;
+import mongo.MongoWorkNote;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -25,7 +25,11 @@ public class ChangePage extends HttpServlet {
         String header=req.getParameter("header");
         String inf=req.getParameter("inf");
 
-        MongoWork mongo=new MongoWork();
+
+
+
+
+        MongoWorkNote mongo=new MongoWorkNote();
 
         try {
             mongo.updateByHeader(header, inf);

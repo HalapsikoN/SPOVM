@@ -5,7 +5,7 @@ import inputExceptionsMongo.AlreadyHasHeaderException;
 import inputExceptionsMongo.NoHeaderEcxeption;
 import inputExceptionsMongo.NoInformationException;
 import inputExceptionsMongo.ParameterException;
-import mongo.MongoWork;
+import mongo.MongoWorkNote;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -13,7 +13,6 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.net.UnknownHostException;
 import java.util.*;
 
 
@@ -42,7 +41,7 @@ public class AddPage extends HttpServlet {
         }
 
 
-        MongoWork mongo = new MongoWork();
+        MongoWorkNote mongo = new MongoWorkNote();
         try {
             mongo.add(listParametersName, parametersMap);
             req.getRequestDispatcher("/WEB-INF/addDone.jsp").forward(req,resp);

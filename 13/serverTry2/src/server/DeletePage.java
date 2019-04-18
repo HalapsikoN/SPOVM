@@ -2,7 +2,7 @@ package server;
 
 import inputExceptionsMongo.NoHeaderEcxeption;
 import inputExceptionsMongo.NoSuchElementInDBException;
-import mongo.MongoWork;
+import mongo.MongoWorkNote;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -23,7 +23,7 @@ public class DeletePage extends HttpServlet {
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String header=req.getParameter("header");
 
-        MongoWork mongo=new MongoWork();
+        MongoWorkNote mongo=new MongoWorkNote();
 
         try {
             mongo.deleteByHeader(header);

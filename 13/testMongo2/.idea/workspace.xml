@@ -2,69 +2,48 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c33f1ba6-f94c-4811-b828-6592f56dec32" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../HttpServer/mongoWork/src/main/java/inputExceptionsMongo/AlreadyHasHeaderException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HttpServer/mongoWork/src/main/java/inputExceptionsMongo/NoHeaderEcxeption.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HttpServer/mongoWork/src/main/java/inputExceptionsMongo/NoInformationException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HttpServer/mongoWork/src/main/java/inputExceptionsMongo/NoSuchElementInDBException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HttpServer/mongoWork/src/main/java/inputExceptionsMongo/ParameterException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ght/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ght/.idea/libraries/servlet_api.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ght/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ght/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ght/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ght/ght.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ght/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ght/src/main/java/helpfulMethods/FileReadable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ght/src/main/java/server/AddPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ght/src/main/java/server/ChangePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ght/src/main/java/server/DeletePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ght/src/main/java/server/GetPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ght/src/main/java/server/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../serverTry2/.idea/artifacts/serverTry2_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../serverTry2/.idea/libraries/bson_3_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../serverTry2/.idea/libraries/servlet_api.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../serverTry2/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../serverTry2/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../serverTry2/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../serverTry2/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../serverTry2/serverTry2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../serverTry2/src/inputExceptionsMongo/AlreadyHasHeaderException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../serverTry2/src/inputExceptionsMongo/NoHeaderEcxeption.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../serverTry2/src/inputExceptionsMongo/NoInformationException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../serverTry2/src/inputExceptionsMongo/NoSuchElementInDBException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../serverTry2/src/inputExceptionsMongo/ParameterException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../serverTry2/src/mongo/MongoWork.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../serverTry2/src/server/AddPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../serverTry2/src/server/ChangePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../serverTry2/src/server/DeletePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../serverTry2/src/server/GetPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../serverTry2/src/server/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../serverTry2/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mongo/MongoWork.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled/.idea/artifacts/untitled_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled/.idea/libraries/bson_3_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled/untitled.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HttpServer/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HttpServer/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HttpServer/.idea/libraries/Maven__org_mongodb_mongo_java_driver_2_11_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HttpServer/.idea/libraries/Maven__org_mongodb_mongo_java_driver_2_10_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HttpServer/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HttpServer/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HttpServer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HttpServer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HttpServer/HttpServer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../HttpServer/HttpServer.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HttpServer/mongoWork/mongoWork.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../HttpServer/mongoWork/mongoWork.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HttpServer/mongoWork/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HttpServer/mongoWork/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HttpServer/mongoWork/src/main/java/mongo/MongoWork.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HttpServer/mongoWork/src/main/java/mongo/MongoWork.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HttpServer/out/artifacts/HttpServer_war_exploded/WEB-INF/classes/server/AddPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HttpServer/out/artifacts/HttpServer_war_exploded/WEB-INF/classes/server/AddPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HttpServer/out/artifacts/HttpServer_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../HttpServer/out/artifacts/HttpServer_war_exploded/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HttpServer/out/production/HttpServer/server/AddPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HttpServer/out/production/HttpServer/server/AddPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HttpServer/src/server/AddPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HttpServer/src/server/AddPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HttpServer/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../HttpServer/web/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../httpPages/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/../httpPages/add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../httpPages/addDone.html" beforeDir="false" afterPath="$PROJECT_DIR$/../httpPages/addDone.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../httpPages/mainPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/../httpPages/mainPage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../helpMe/.idea/artifacts/unnamed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../helpMe/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../helpMe/.idea/libraries/servlet_api.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../helpMe/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../helpMe/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../helpMe/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../helpMe/helpMe.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../helpMe/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../helpMe/src/main/java/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../helpMe/src/main/java/EmployeeServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../serverTry2/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../serverTry2/.idea/libraries/com_google_code_gson_gson_2_8_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../serverTry2/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../serverTry2/src/mongo/MongoWorkBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../serverTry2/src/objects/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../serverTry2/src/objects/Note.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../serverTry2/src/workWithObjects/BookWork.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../serverTry2/src/workWithObjects/NoteWork.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/gson_2_8_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/objects/Note.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled1/src/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled1/untitled1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../serverTry2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../serverTry2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../serverTry2/out/artifacts/serverTry2_war_exploded/WEB-INF/classes/mongo/MongoWork.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../serverTry2/out/artifacts/serverTry2_war_exploded/WEB-INF/classes/server/AddPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../serverTry2/out/artifacts/serverTry2_war_exploded/WEB-INF/classes/server/AddPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../serverTry2/out/artifacts/serverTry2_war_exploded/WEB-INF/classes/server/ChangePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../serverTry2/out/artifacts/serverTry2_war_exploded/WEB-INF/classes/server/ChangePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../serverTry2/out/artifacts/serverTry2_war_exploded/WEB-INF/classes/server/DeletePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../serverTry2/out/artifacts/serverTry2_war_exploded/WEB-INF/classes/server/DeletePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../serverTry2/out/artifacts/serverTry2_war_exploded/WEB-INF/classes/server/GetPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../serverTry2/out/artifacts/serverTry2_war_exploded/WEB-INF/classes/server/GetPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../serverTry2/out/artifacts/serverTry2_war_exploded/WEB-INF/classes/server/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../serverTry2/out/artifacts/serverTry2_war_exploded/WEB-INF/classes/server/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../serverTry2/out/production/serverTry2/mongo/MongoWork.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../serverTry2/out/production/serverTry2/server/AddPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../serverTry2/out/production/serverTry2/server/AddPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../serverTry2/out/production/serverTry2/server/ChangePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../serverTry2/out/production/serverTry2/server/ChangePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../serverTry2/out/production/serverTry2/server/DeletePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../serverTry2/out/production/serverTry2/server/DeletePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../serverTry2/out/production/serverTry2/server/GetPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../serverTry2/out/production/serverTry2/server/GetPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../serverTry2/out/production/serverTry2/server/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../serverTry2/out/production/serverTry2/server/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../serverTry2/serverTry2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../serverTry2/serverTry2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../serverTry2/src/mongo/MongoWork.java" beforeDir="false" afterPath="$PROJECT_DIR$/../serverTry2/src/mongo/MongoWorkNote.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../serverTry2/src/server/AddPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../serverTry2/src/server/AddPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../serverTry2/src/server/ChangePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../serverTry2/src/server/ChangePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../serverTry2/src/server/DeletePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../serverTry2/src/server/DeletePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../serverTry2/src/server/GetPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../serverTry2/src/server/GetPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../serverTry2/src/server/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../serverTry2/src/server/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MongoDb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MongoDb.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/MongoDb.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MongoDb.class" afterDir="false" />
@@ -91,11 +70,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/MongoDb.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
-              <caret line="74" column="35" selection-start-line="74" selection-start-column="35" selection-end-line="74" selection-end-column="35" />
+            <state relative-caret-position="281">
+              <caret line="93" column="35" lean-forward="true" selection-start-line="93" selection-start-column="35" selection-end-line="93" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -103,14 +82,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/mongo/MongoWork.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/objects/Note.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="410">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
             </state>
           </provider>
         </entry>
@@ -141,8 +117,9 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/untitled/src/hhh.java" />
-        <option value="$PROJECT_DIR$/src/main/java/MongoDb.java" />
         <option value="$PROJECT_DIR$/src/main/java/mongo/MongoWork.java" />
+        <option value="$PROJECT_DIR$/src/main/java/objects/Note.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MongoDb.java" />
       </list>
     </option>
   </component>
@@ -162,7 +139,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-228" />
     <option name="y" value="-16" />
     <option name="width" value="1936" />
@@ -174,8 +151,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -212,27 +187,38 @@
             <path>
               <item name="testMongo2" type="b2602c69:ProjectViewProjectNode" />
               <item name="testMongo2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="objects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testMongo2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testMongo2" type="462c0819:PsiDirectoryNode" />
               <item name="untitled" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../serverTry2/lib/gson-2.8.5.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="objects" />
       <recent name="mongo" />
     </key>
   </component>
@@ -274,15 +260,15 @@
       <updated>1555098150503</updated>
       <workItem from="1555098157417" duration="9342000" />
       <workItem from="1555244442776" duration="5579000" />
+      <workItem from="1555599458203" duration="5890000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14921000" />
+    <option name="totallyTimeSpent" value="20811000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -293,7 +279,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32910052" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -303,7 +289,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32827735" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32804233" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -336,20 +322,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MongoDb.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/mongo/MongoWork.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="74" column="35" selection-start-line="74" selection-start-column="35" selection-end-line="74" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="413">
+          <caret line="38" column="13" lean-forward="true" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mongo/MongoWork.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/objects/Note.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
+        <state relative-caret-position="410">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MongoDb.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="93" column="35" lean-forward="true" selection-start-line="93" selection-start-column="35" selection-end-line="93" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -411,7 +401,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -419,6 +408,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>gson-2.8.5</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

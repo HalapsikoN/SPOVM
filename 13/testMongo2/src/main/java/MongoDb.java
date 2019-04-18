@@ -1,8 +1,13 @@
+import com.google.gson.Gson;
+import com.google.gson.JsonArray;
 import com.mongodb.*;
+import com.mongodb.util.JSON;
 import mongo.MongoWork;
+import objects.Note;
 
 import java.io.IOException;
 import java.net.UnknownHostException;
+import java.util.Map;
 import java.util.Set;
 
 public class MongoDb{
@@ -13,10 +18,10 @@ public class MongoDb{
         System.out.println("Start");
 
         try {
-            /*Mongo m = new Mongo("localhost", 27017);
+            Mongo m = new Mongo("localhost", 27017);
             DB db = m.getDB("test");
 
-            DBCollection coll = db.getCollection("some");*/
+            DBCollection coll = db.getCollection("some");
 
             //добавление
             //coll.insert(makeDocument(10, "James", "male"));
@@ -68,8 +73,8 @@ public class MongoDb{
             coll.remove(query);*/
 
 
-            MongoWork mongo=new MongoWork();
-            mongo.add();
+            //MongoWork mongo=new MongoWork();
+            //mongo.add();
 
 
             /*System.out.println();
@@ -77,7 +82,33 @@ public class MongoDb{
             while(cur.hasNext()){
                 System.out.println(cur.next());
             }*/
-            System.out.println("Finish");
+            //System.out.println("Finish");
+
+            Note note=new Note("asd", "ssssssss");
+
+            String str=new Gson().toJson(note);
+
+            BasicDBObject ob= (BasicDBObject) JSON.parse(str);
+
+            coll.insert(ob);
+            /*String result = null;
+            BasicDBObject query = new BasicDBObject();
+
+            query.put("header", "asd");
+            DBObject findElement = coll.findOne(query);
+            if (findElement == null) {
+                return;
+            }
+            String str=findElement.toString();
+            System.out.println(str);
+
+
+            Note note1=new Gson().fromJson(str, Note.class);
+            System.out.println(note1.getHeader()+"\n"+note1.getInf());*/
+
+            //coll.insert(dbObject);
+
+
         }
         catch (UnknownHostException ex) {
             ex.printStackTrace();
