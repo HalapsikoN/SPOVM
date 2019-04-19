@@ -10,7 +10,6 @@ import com.mongodb.util.JSON;
 import inputExceptionsMongo.*;
 import objects.Note;
 
-import javax.servlet.http.HttpServlet;
 import java.net.UnknownHostException;
 import java.util.List;
 import java.util.Map;

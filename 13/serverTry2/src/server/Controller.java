@@ -1,11 +1,11 @@
 package server;
 
 
+import com.google.gson.Gson;
 import inputExceptionsMongo.*;
+import mongo.MongoWorkNote;
 import objects.Book;
 import objects.Note;
-import workWithObjects.BookWork;
-import workWithObjects.NoteWork;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -19,7 +19,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @WebServlet(name="server", displayName="Notification Servlet", urlPatterns = {"/server"})
-public class Main extends HttpServlet {
+public class Controller extends HttpServlet {
 
     private String getBody(HttpServletRequest req) throws IOException {
 
@@ -34,15 +34,20 @@ public class Main extends HttpServlet {
         return data;
     }
 
-    private List<String> getBodyList(String string){
+    private List<String> parseBodyToList(String string){
 
         char[] stringChar=string.toCharArray();
        // System.out.println(stringChar.length);
         List<String> list=new ArrayList<String>();
         int i=0;
         while(i<stringChar.length){
-            StringBuffer buffer=new StringBuffer();
-            while (isGood(stringChar[i])){
+            StringBuilder buffer=new StringBuilder();
+            while (isValid(stringChar[i])){
+                if(stringChar[i]=='%'){
+                    buffer.append(' ');
+                    i+=3;
+                    continue;
+                }
                 buffer.append(stringChar[i]);
                 i++;
             }
@@ -66,8 +71,8 @@ public class Main extends HttpServlet {
         return result;
     }
 
-    private boolean isGood(char symbol){
-        return ((symbol>='a'&&symbol<='z') || (symbol>='A'&&symbol<='Z') || (symbol>= '0'&&symbol<='9'));
+    private boolean isValid(char symbol){
+        return ((symbol>='a'&&symbol<='z') || (symbol>='A'&&symbol<='Z') || (symbol>= '0'&&symbol<='9') || (symbol==' ') || (symbol=='%'));
     }
 
 
@@ -77,20 +82,20 @@ public class Main extends HttpServlet {
         String author=req.getParameter(Book.AUTHOR);
         //
         try {
-            if (header!=null){
+            /*if (header!=null){
                 NoteWork noteWork=new NoteWork(resp);
                 noteWork.getNoteFromBD(header);
             }
             if(author!=null){
                 BookWork bookWork=new BookWork(resp);
                 bookWork.getBookFromBD(author);
-            }
-            /*MongoWorkNote mongo = new MongoWorkNote();
+            }*/
+            MongoWorkNote mongo = new MongoWorkNote();
             Note note = mongo.get(header);
 
             String string = new Gson().toJson(note);
             PrintWriter printWriter = resp.getWriter();
-            printWriter.write(string);*/
+            printWriter.write(string);
         }catch (NoHeaderEcxeption | NoSuchElementInDBException ex) {
             resp.sendError(HttpServletResponse.SC_BAD_REQUEST, ex.getMessage());
         }
@@ -100,20 +105,20 @@ public class Main extends HttpServlet {
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
         String string=getBody(req);
-        List<String> list= getBodyList(string);
+        List<String> list= parseBodyToList(string);
         //
         PrintWriter printWriter=resp.getWriter();
         try {
-            if (list.contains(Note.HEADER)){
+            /*if (list.contains(Note.HEADER)){
                 NoteWork noteWork=new NoteWork(resp);
                 noteWork.addNote(list);
             }
             if(list.contains(Book.AUTHOR)){
                 BookWork bookWork=new BookWork(resp);
                 bookWork.addBook(list);
-            }
+            }*/
 
-            /*String header = getFromBodyListByName(list, Note.HEADER);
+            String header = getFromBodyListByName(list, Note.HEADER);
             String inf = getFromBodyListByName(list, Note.INF);
             Note note = new Note(header, inf);
 
@@ -121,7 +126,7 @@ public class Main extends HttpServlet {
             mongo.add(note);
             String j = new Gson().toJson(note);
             resp.setStatus(HttpServletResponse.SC_OK);
-            printWriter.write("added: "+j);*/
+            printWriter.write("added: "+j);
         }catch (ParameterException | NoHeaderEcxeption | AlreadyHasHeaderException ex){
             resp.sendError(HttpServletResponse.SC_BAD_REQUEST, ex.getMessage());
         }
@@ -130,20 +135,20 @@ public class Main extends HttpServlet {
     @Override
     protected void doPut(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String string=getBody(req);
-        List<String> list= getBodyList(string);
+        List<String> list= parseBodyToList(string);
         //
         PrintWriter printWriter=resp.getWriter();
         try {
-            if (list.contains(Note.HEADER)){
+            /*if (list.contains(Note.HEADER)){
                 NoteWork noteWork=new NoteWork(resp);
                 noteWork.updateNote(list);
             }
             if(list.contains(Book.AUTHOR)){
                 BookWork bookWork=new BookWork(resp);
                 bookWork.updateBook(list);
-            }
+            }*/
 
-            /*String header = getFromBodyListByName(list, Note.HEADER);
+            String header = getFromBodyListByName(list, Note.HEADER);
             String inf = getFromBodyListByName(list, Note.INF);
             Note note=new Note(header, inf);
 
@@ -152,7 +157,7 @@ public class Main extends HttpServlet {
 
             String j = new Gson().toJson(note);
             resp.setStatus(HttpServletResponse.SC_OK);
-            printWriter.write("updated: " +j);*/
+            printWriter.write("updated: " +j);
         }catch (ParameterException | NoSuchElementInDBException | NoHeaderEcxeption ex) {
             resp.sendError(HttpServletResponse.SC_BAD_REQUEST, ex.getMessage());
         }
@@ -162,19 +167,19 @@ public class Main extends HttpServlet {
     @Override
     protected void doDelete(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String string=getBody(req);
-        List<String> list= getBodyList(string);
+        List<String> list= parseBodyToList(string);
         //
         PrintWriter printWriter=resp.getWriter();
         try{
-            if (list.contains(Note.HEADER)){
+            /*if (list.contains(Note.HEADER)){
                 NoteWork noteWork=new NoteWork(resp);
                 noteWork.deleteNote(list);
             }
             if(list.contains(Book.AUTHOR)){
                 BookWork bookWork=new BookWork(resp);
                 bookWork.deleteBook(list);
-            }
-           /* String header = getFromBodyListByName(list, Note.HEADER);
+            }*/
+            String header = getFromBodyListByName(list, Note.HEADER);
             Note note=new Note(header, Note.INF);
 
             MongoWorkNote mongo=new MongoWorkNote();
@@ -182,7 +187,7 @@ public class Main extends HttpServlet {
 
             String j = new Gson().toJson(note);
             resp.setStatus(HttpServletResponse.SC_OK);
-            printWriter.write("deleted: " +j);*/
+            printWriter.write("deleted: " +j);
         } catch (ParameterException | NoSuchElementInDBException | NoHeaderEcxeption ex) {
             resp.sendError(HttpServletResponse.SC_BAD_REQUEST, ex.getMessage());
         }

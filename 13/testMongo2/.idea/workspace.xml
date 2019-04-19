@@ -1,53 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c33f1ba6-f94c-4811-b828-6592f56dec32" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../helpMe/.idea/artifacts/unnamed.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../helpMe/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../helpMe/.idea/libraries/servlet_api.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../helpMe/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../helpMe/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../helpMe/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../helpMe/helpMe.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../helpMe/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../helpMe/src/main/java/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../helpMe/src/main/java/EmployeeServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../serverTry2/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../serverTry2/.idea/libraries/com_google_code_gson_gson_2_8_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../serverTry2/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../serverTry2/src/mongo/MongoWorkBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../serverTry2/src/objects/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../serverTry2/src/objects/Note.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../serverTry2/src/workWithObjects/BookWork.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../serverTry2/src/workWithObjects/NoteWork.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/gson_2_8_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/objects/Note.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled1/src/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled1/untitled1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../serverTry2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../serverTry2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../serverTry2/out/artifacts/serverTry2_war_exploded/WEB-INF/classes/mongo/MongoWork.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../serverTry2/out/artifacts/serverTry2_war_exploded/WEB-INF/classes/server/AddPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../serverTry2/out/artifacts/serverTry2_war_exploded/WEB-INF/classes/server/AddPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../serverTry2/out/artifacts/serverTry2_war_exploded/WEB-INF/classes/server/ChangePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../serverTry2/out/artifacts/serverTry2_war_exploded/WEB-INF/classes/server/ChangePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../serverTry2/out/artifacts/serverTry2_war_exploded/WEB-INF/classes/server/DeletePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../serverTry2/out/artifacts/serverTry2_war_exploded/WEB-INF/classes/server/DeletePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../serverTry2/out/artifacts/serverTry2_war_exploded/WEB-INF/classes/server/GetPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../serverTry2/out/artifacts/serverTry2_war_exploded/WEB-INF/classes/server/GetPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../serverTry2/out/artifacts/serverTry2_war_exploded/WEB-INF/classes/server/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../serverTry2/out/artifacts/serverTry2_war_exploded/WEB-INF/classes/server/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../serverTry2/out/production/serverTry2/mongo/MongoWork.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../serverTry2/out/production/serverTry2/server/AddPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../serverTry2/out/production/serverTry2/server/AddPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../serverTry2/out/production/serverTry2/server/ChangePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../serverTry2/out/production/serverTry2/server/ChangePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../serverTry2/out/production/serverTry2/server/DeletePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../serverTry2/out/production/serverTry2/server/DeletePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../serverTry2/out/production/serverTry2/server/GetPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../serverTry2/out/production/serverTry2/server/GetPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../serverTry2/out/production/serverTry2/server/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../serverTry2/out/production/serverTry2/server/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../serverTry2/serverTry2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../serverTry2/serverTry2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../serverTry2/src/mongo/MongoWork.java" beforeDir="false" afterPath="$PROJECT_DIR$/../serverTry2/src/mongo/MongoWorkNote.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../serverTry2/src/server/AddPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../serverTry2/src/server/AddPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../serverTry2/src/server/ChangePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../serverTry2/src/server/ChangePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../serverTry2/src/server/DeletePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../serverTry2/src/server/DeletePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../serverTry2/src/server/GetPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../serverTry2/src/server/GetPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../serverTry2/src/server/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../serverTry2/src/server/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MongoDb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MongoDb.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MongoDb.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MongoDb.class" afterDir="false" />
-    </list>
+    <list default="true" id="c33f1ba6-f94c-4811-b828-6592f56dec32" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -74,7 +28,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/MongoDb.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="281">
-              <caret line="93" column="35" lean-forward="true" selection-start-line="93" selection-start-column="35" selection-end-line="93" selection-end-column="35" />
+              <caret line="93" column="35" selection-start-line="93" selection-start-column="35" selection-end-line="93" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -85,7 +39,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/objects/Note.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="410">
+            <state relative-caret-position="440">
               <caret line="28" selection-start-line="28" selection-end-line="28" />
             </state>
           </provider>
@@ -201,15 +155,15 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../serverTry2/lib/gson-2.8.5.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../serverTry2" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -261,11 +215,12 @@
       <workItem from="1555098157417" duration="9342000" />
       <workItem from="1555244442776" duration="5579000" />
       <workItem from="1555599458203" duration="5890000" />
+      <workItem from="1555675461410" duration="34000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20811000" />
+    <option name="totallyTimeSpent" value="20845000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -308,10 +263,24 @@
     <entry file="file://$PROJECT_DIR$/target/classes/MongoDb.class">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mongo/MongoWork.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="38" column="13" lean-forward="true" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="15" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/objects/Note.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
@@ -322,24 +291,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mongo/MongoWork.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="38" column="13" lean-forward="true" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/objects/Note.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/MongoDb.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="281">
-          <caret line="93" column="35" lean-forward="true" selection-start-line="93" selection-start-column="35" selection-end-line="93" selection-end-column="35" />
+          <caret line="93" column="35" selection-start-line="93" selection-start-column="35" selection-end-line="93" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

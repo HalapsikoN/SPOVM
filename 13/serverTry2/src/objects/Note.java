@@ -28,8 +28,4 @@ public class Note {
         this.inf = inf;
     }
 
-    @Override
-    public String toString() {
-        return super.toString();
-    }
 }
